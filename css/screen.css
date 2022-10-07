@@ -192,10 +192,48 @@ img, audio, video {
 */
 
 html {
+  font-family: Arial, Helvetica, Times New Roman, Sans-serif;
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
+}
+
+h1 {
+  text-align: center;
+  margin: 1.182em 0 ;
+}
+
+p {
+  line-height: 1.182em;
+  padding-bottom: 1.182em;
+  padding-top: 1.182em;
+}
+
+input {
+  box-sizing: border-box;
+  width: 97%;
+  padding: 12px 30px;
+  margin: 8px 1.5%;
+  border: 1px solid;
+  border-color: #c0c0c0;
+  border-radius: 6px;
+  background-color: rgb(209, 209, 209);
+}
+
+#input-age-verification label {
+  font-size: 0.825em;
+  display: inline;
+}
+
+#input-age-verification input {
+  box-sizing: content-box;
+  width: auto;
+}
+
+li {
+  padding-top: 1.182em;
+  padding-bottom: 1.182em;
 }
 
 label {
@@ -203,6 +241,8 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
-
+.backgroundcolour {
+  background-color: lightgreen
+}
 
 /* ===== STATE STYLES ======= */

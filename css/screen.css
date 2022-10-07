@@ -200,8 +200,8 @@ html {
 }
 
 h1 {
-  text-align: center;
   margin: 1.182em 0 ;
+  font-size: 2.222em;
 }
 
 p {
@@ -212,9 +212,9 @@ p {
 
 input {
   box-sizing: border-box;
-  width: 97%;
+  width: 39%;
   padding: 12px 30px;
-  margin: 8px 1.5%;
+  margin: 0px;
   border: 1px solid;
   border-color: #c0c0c0;
   border-radius: 6px;
@@ -233,7 +233,7 @@ input {
 
 li {
   padding-top: 1.182em;
-  padding-bottom: 1.182em;
+  padding-bottom: 0em;
 }
 
 label {
@@ -241,8 +241,11 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
-.backgroundcolour {
-  background-color: lightgreen
-}
 
 /* ===== STATE STYLES ======= */
+body {
+  background-color: lightgreen;
+  text-align: center;
+  width: auto;
+
+}

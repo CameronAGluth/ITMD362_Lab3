@@ -193,7 +193,7 @@ img, audio, video {
 
 html {
   font-family: Arial, Helvetica, Times New Roman, Sans-serif;
-  font-size: 1.375em; /* 22px */
+  /* font-size: 62.5%; */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
@@ -201,7 +201,7 @@ html {
 
 h1 {
   margin: 1.182em 0 ;
-  font-size: 2.222em;
+  font-size: 2.6em;
 }
 
 p {
@@ -213,8 +213,8 @@ p {
 input {
   box-sizing: border-box;
   width: 39%;
-  padding: 12px 30px;
-  margin: 0px;
+  padding: 12px 20px;
+  margin: 8px 1.5%;
   border: 1px solid;
   border-color: #c0c0c0;
   border-radius: 6px;
@@ -238,6 +238,7 @@ li {
 
 label {
   display: block;
+  font-size: 1.8em;
 }
 
 /* ===== LAYOUT STYLES ====== */
@@ -247,5 +248,10 @@ body {
   background-color: beige;
   text-align: center;
   width: auto;
-
 }
+
+@media screen and (max-width: 768px) {
+  input[type="email"] {
+    border-bottom: 4px solid gray;
+    margin-bottom: 3rem;
+  }

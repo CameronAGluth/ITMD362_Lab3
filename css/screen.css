@@ -37,6 +37,11 @@ input { /* 1 */
   overflow: visible;
 }
 
+form {
+  background-color: aqua;
+  padding: 9px;
+}
+
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
@@ -119,6 +124,10 @@ progress {
   vertical-align: baseline; /* 2 */
 }
 
+spacer {
+  height: 10px;
+}
+
 /**
  * Remove the default vertical scrollbar in IE.
  */
@@ -136,6 +145,10 @@ textarea {
 [type="radio"] {
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
+}
+
+input.checkbox {
+  transform: scale(2);
 }
 
 /**
@@ -201,13 +214,14 @@ html {
 
 h1 {
   margin: 1.182em 0 ;
-  font-size: 2.6em;
+  font-size: 2.4em;
 }
 
 p {
   line-height: 1.182em;
   padding-bottom: 1.182em;
   padding-top: 1.182em;
+  font-size: 1.2375em
 }
 
 input {
@@ -222,7 +236,7 @@ input {
 }
 
 #input-age-verification label {
-  font-size: 0.825em;
+  font-size: 1.2375em;
   display: inline;
 }
 
@@ -234,6 +248,7 @@ input {
 li {
   padding-top: 1.182em;
   padding-bottom: 0em;
+  text-align: match-parent;
 }
 
 label {
